@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f50057;
+}
+
+input[type="password"], input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+#questionDisplay {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+#passwordSection {
+    margin-top: 30px;
+}
+
+#adminPanel {
+    margin-top: 40px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#adminPanel input {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    color: #555;
+}

@@ -1,7 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100+ Questions to Get to Know</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="container">
+        <h1 id="greeting">Welcome to Your Get To Know Question Desk!</h1>
+        
+        <!-- Password Section (Hidden by default) -->
+        <div id="passwordSection" class="hidden">
+            <label for="password">Enter Admin Password:</label>
+            <input type="password" id="password" placeholder="Password">
+            <button id="passwordButton">Enter</button>
+        </div>
+
+        <!-- Main content (non-admin view) -->
+        <div id="mainContent">
+            <button id="questionButton">Get a Question</button>
+            <div id="questionDisplay"></div>
+        </div>
+        
+        <!-- Admin Panel (Hidden by default) -->
+        <div id="adminPanel" class="hidden">
+            <h2>Admin Panel</h2>
+            <label for="newQuestion">Add a New Question:</label>
+            <input type="text" id="newQuestion" placeholder="Enter your new question">
+            <button id="addQuestionButton">Add Question</button>
+            <h3>Current Questions:</h3>
+            <ul id="questionList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
