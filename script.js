@@ -145,7 +145,7 @@ if (storedName) {
     // Otherwise, ask for their name
     const name = prompt("What's your name?");
     localStorage.setItem("userName", name);
-    greeting.textContent = `Welcome, ${name}! Ready for a surprise?`;
+    greeting.textContent = `Welcome, ${name}! Let's get to know each other in more than 100 words;)`;
     checkIfAdmin(name);  // Check if the user is "ADMIN"
 }
 
